@@ -1,6 +1,10 @@
 {
   "name": "csh-pbx-manager",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stevenmirabito/CSH-PBX-Manager.git"
+  },
   "scripts": {
     "tsc": "tsc",
     "tsc:w": "tsc -w",
@@ -8,6 +12,23 @@
     "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
   },
   "license": "Apache-2.0",
+  "dependencies": {
+    "angular2": "2.0.0-beta.3",
+    "bootstrap": "^3.3.6",
+    "bootstrap-social": "^4.11.0",
+    "datatables": "^1.10.9",
+    "datatables-responsive": "^1.0.7",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "flot": "^0.8.0-alpha",
+    "font-awesome": "^4.5.0",
+    "holderjs": "^2.9.1",
+    "metismenu": "^2.4.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "systemjs": "0.19.6",
+    "zone.js": "0.5.11"
+  },
   "devDependencies": {
     "concurrently": "^1.0.0",
     "lite-server": "^2.0.1",
